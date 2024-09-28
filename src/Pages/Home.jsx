@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import avatar from "../assets/avatar.svg";
-import pdf from "../assets/Nadeem_Chaudhary_Resume.pdf";
+import pdf from "../assets/Nadeem_Ch_Resume.pdf";
 import Tilt from "react-parallax-tilt";
 import Hello from '../assets/Hello.gif'
 import "./Home.css";
@@ -14,10 +14,10 @@ const Home = () => {
     words: [
       "Software Engineer",
       "Front-end Developer",
-      // "Full Stack Developer",
+      "Full Stack Developer",
+      "MERN Stack Developer",
       "React Developer ",
       "Web Developer",
-      "UI-UX Designer",
       // "Backend Developer",
       "Coder",
     ],

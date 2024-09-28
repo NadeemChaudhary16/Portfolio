@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/joy/Button";
 import { PiDownloadSimple } from "react-icons/pi";
-import pdf from "../assets/Nadeem_Chaudhary_Resume.pdf";
+import pdf from "../assets/Nadeem_Ch_Resume.pdf";
 import toast from "react-hot-toast";
 import './Resume.css'
 // import { Document, Page } from "@react-pdf/renderer";
@@ -19,7 +19,7 @@ const Resume = () => {
 
   return (
     <div className="pt-16" id="resume">
-    <h1 className="text-white text-center text-5xl  py-4">My Resume</h1>
+    <h1 className="text-white text-center text-3xl sm:text-4xl  py-4">My Resume</h1>
       <div className="flex py-4 justify-center resume-pdf-container">
         <Document file={pdf} >
           <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>

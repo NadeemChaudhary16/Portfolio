@@ -9,6 +9,7 @@ import { GrMysql } from "react-icons/gr";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 import './Skills.css'
 
 const Skills = () => {
@@ -52,12 +53,16 @@ const Skills = () => {
     {
       name:"MongoDB",
       image:<SiMongodb size={70}/>
+    },
+    {
+      name:"Git",
+      image:<FaGitAlt size={70}/>
     }
   ]
 
   return (
     <div className="pt-16" id="skills">
-      <h1 className="text-center text-5xl text-white pt-4 px-8">Professional <span className="text-[#567cbf]">Skillset</span></h1>
+      <h1 className="text-center text-3xl sm:text-4xl text-white pt-4 px-8">Professional <span className="text-[#567cbf]">Skillset</span></h1>
       <div className="flex justify-center mt-5 px-8 flex-wrap">
         {skillSet.map((item, i) => (
           <div key={i} className="hover:shadow-md hover:shadow-blue-700/70 w-60 h-32 border-[1.7px] text-white border-[#5a76a4] rounded-lg m-6 mb-14 p-3  flex flex-col justify-center items-center" id="skill">
