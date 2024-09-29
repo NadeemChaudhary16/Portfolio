@@ -39,10 +39,10 @@ const Home = () => {
           Hello &nbsp;<img src={Hello} alt="Hello" width="25px" loading="lazy" />, I'm
         </p>
         </div>
-        <h1 className=" name font-medium  text-4xl sm:text-5xl"> Nadeem Chaudhary</h1>
+        <h1 className=" name font-medium  text-3xl sm:text-4xl"> Nadeem Chaudhary</h1>
         
         <br />
-        <span className="text-white font-normal text-3xl">{text}</span>
+        <span className="text-white font-normal text-2xl sm:text-3xl">{text}</span>
         <span className="text-3xl">
           <Cursor cursorStyle="|" cursorColor="white " />
           
