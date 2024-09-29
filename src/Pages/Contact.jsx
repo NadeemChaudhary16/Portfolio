@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.VITE_SERVICE_ID,    // Replace with your EmailJS service ID
-        process.env.VITE_TEMPLATE_ID,    // Replace with your EmailJS template ID
+        import.meta.env.VITE_SERVICE_ID,    // Replace with your EmailJS service ID
+        import.meta.env.VITE_TEMPLATE_ID,    // Replace with your EmailJS template ID
         formRef.current,       // Pass the form reference
-        process.env.VITE_PUBLIC_KEY      // Replace with your EmailJS public key
+        import.meta.env.VITE_PUBLIC_KEY      // Replace with your EmailJS public key
       )
       .then(
         () => {
